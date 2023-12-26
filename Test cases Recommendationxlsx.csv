@@ -1,0 +1,141 @@
+Sl#,Test Case Name,Number of Linked Requirements,Number of Linked Defects,"Severity of Linked Defects (1,2,3)",Test Case Execution Effort (hours),Part of Release
+1,TC001: FICO Transaction Posting,5,2,"2, 3",12,Release 1.0
+2,TC002: Vendor Invoice Processing,3,1,2,8,Release 1.0
+3,TC003: Asset Accounting Integration,4,0,-,10,Release 1.1
+4,TC004: General Ledger Account Creation,2,1,3,6,Release 1.1
+5,TC005: Credit Management,3,2,"2, 2",15,Release 1.2
+6,TC006: Tax Configuration,1,0,-,5,Release 1.2
+7,TC007: Accounts Payable Aging Report,4,1,3,10,Release 1.3
+8,TC008: Bank Reconciliation,3,0,-,8,Release 1.3
+9,TC009: Cost Element Master Data,2,1,2,7,Release 1.4
+10,TC010: Internal Order Planning,3,2,"3, 1",13,Release 1.4
+11,TC011: Asset Depreciation Run,4,1,2,9,Release 1.5
+12,TC012: Funds Management Configuration,2,0,-,6,Release 1.5
+13,TC013: Trial Balance Report,3,1,3,8,Release 2.0
+14,TC014: Cash Flow Statement,4,2,"1, 2",14,Release 2.0
+15,TC015: Project Costing Integration,5,1,2,11,Release 2.1
+16,TC016: Credit Memo Processing,2,0,-,7,Release 2.1
+17,TC017: Financial Statement Version,3,1,3,9,Release 2.2
+18,TC018: Foreign Currency Valuation,4,2,"2, 3",12,Release 2.2
+19,TC019: Cost Center Planning,3,1,1,10,Release 2.3
+20,TC020: Bank Statement Reconciliation,2,0,-,6,Release 2.3
+21,SD_TC001: Sales Order Creation,5,2,"2, 3",12,Release 1.0
+22,SD_TC002: Pricing and Discount Validation,3,1,2,8,Release 1.0
+23,SD_TC003: Delivery Processing,4,0,-,10,Release 1.1
+24,SD_TC004: Credit Management Check,2,1,3,6,Release 1.1
+25,SD_TC005: Returns Management,3,2,"2, 2",15,Release 1.2
+26,SD_TC006: Availability Check,1,0,-,5,Release 1.2
+27,SD_TC007: Billing and Invoicing,4,1,3,10,Release 1.3
+28,SD_TC008: Shipment Processing,3,0,-,8,Release 1.3
+29,SD_TC009: Output Determination,2,1,2,7,Release 1.4
+30,SD_TC010: Integration with CRM,3,2,"3, 1",13,Release 1.4
+31,SD_TC011: Cross Selling Validation,4,1,2,9,Release 1.5
+32,SD_TC012: Tax Calculation,2,0,-,6,Release 1.5
+33,SD_TC013: Customer Master Data Management,3,1,3,8,Release 2.0
+34,SD_TC014: Material Determination Rules,4,2,"1, 2",14,Release 2.0
+35,SD_TC015: Rebate Processing,5,1,2,11,Release 2.1
+36,SD_TC016: Contract Management,2,0,-,7,Release 2.1
+37,SD_TC017: Sales Reporting,3,1,3,9,Release 2.2
+38,SD_TC018: Freight and Shipping Costs,4,2,"2, 3",12,Release 2.2
+39,SD_TC019: Complaints and Returns Handling,3,1,1,10,Release 2.3
+40,SD_TC020: Intercompany Sales Processing,2,0,-,6,Release 2.3
+41,MM_TC001: Purchase Requisition Creation,5,2,"2, 3",12,Release 1.0
+42,MM_TC002: Material Master Data Maintenance,3,1,2,8,Release 1.0
+43,MM_TC003: Purchase Order Processing,4,0,-,10,Release 1.1
+44,MM_TC004: Goods Receipt and Inspection,2,1,3,6,Release 1.1
+45,MM_TC005: Vendor Evaluation,3,2,"2, 2",15,Release 1.2
+46,MM_TC006: Invoice Verification,1,0,-,5,Release 1.2
+47,MM_TC007: Stock Transfer between Warehouses,4,1,3,10,Release 1.3
+48,MM_TC008: Material Valuation and Pricing,3,0,-,8,Release 1.3
+49,MM_TC009: Source Determination,2,1,2,7,Release 1.4
+50,MM_TC010: Purchase Order Release Workflow,3,2,"3, 1",13,Release 1.4
+51,MM_TC011: Physical Inventory Count,4,1,2,9,Release 1.5
+52,MM_TC012: Consumption-Based Planning,2,0,-,6,Release 1.5
+53,MM_TC013: Vendor Master Data Management,3,1,3,8,Release 2.0
+54,MM_TC014: Material Ledger Configuration,4,2,"1, 2",14,Release 2.0
+55,MM_TC015: Purchase Info Record Maintenance,5,1,2,11,Release 2.1
+56,MM_TC016: Service Entry Sheet Processing,2,0,-,7,Release 2.1
+57,MM_TC017: Material Requirements Planning (MRP),3,1,3,9,Release 2.2
+58,MM_TC018: Vendor Consignment Process,4,2,"2, 3",12,Release 2.2
+59,MM_TC019: Release Strategy for Purchase Orders,3,1,1,10,Release 2.3
+60,MM_TC020: Subcontracting Process,2,0,-,6,Release 2.3
+61,AP_TC001: Vendor Master Data Creation,5,2,"2, 3",12,Release 1.0
+62,AP_TC002: Purchase Invoice Processing,3,1,2,8,Release 1.0
+63,AP_TC003: Payment Run and Processing,4,0,-,10,Release 1.1
+64,AP_TC004: Invoice Verification Workflow,2,1,3,6,Release 1.1
+65,AP_TC005: Vendor Credit Memo Processing,3,2,"2, 2",15,Release 1.2
+66,AP_TC006: Vendor Account Reconciliation,1,0,-,5,Release 1.2
+67,AP_TC007: Tax Handling in AP,4,1,3,10,Release 1.3
+68,AP_TC008: Down Payment Processing,3,0,-,8,Release 1.3
+69,AP_TC009: Invoice Approval Workflow,2,1,2,7,Release 1.4
+70,AP_TC010: Bank Integration for Payments,3,2,"3, 1",13,Release 1.4
+71,AP_TC011: Duplicate Invoice Check,4,1,2,9,Release 1.5
+72,AP_TC012: Foreign Currency Payment,2,0,-,6,Release 1.5
+73,AP_TC013: Electronic Bank Statement,3,1,3,8,Release 2.0
+74,AP_TC014: Vendor Aging Report,4,2,"1, 2",14,Release 2.0
+75,AP_TC015: Three-Way Matching,5,1,2,11,Release 2.1
+76,AP_TC016: Escheatment Process,2,0,-,7,Release 2.1
+77,AP_TC017: Document Parking and Holding,3,1,3,9,Release 2.2
+78,AP_TC018: Withholding Tax Configuration,4,2,"2, 3",12,Release 2.2
+79,AP_TC019: Vendor Blocking and Unblocking,3,1,1,10,Release 2.3
+80,AP_TC020: Cash Discount Processing,2,0,-,6,Release 2.3
+81,AR_TC001: Customer Master Data Creation,5,2,"2, 3",12,Release 1.0
+82,AR_TC002: Sales Invoice Processing,3,1,2,8,Release 1.0
+83,AR_TC003: Credit Memo Processing,4,0,-,10,Release 1.1
+84,AR_TC004: Collections Management,2,1,3,6,Release 1.1
+85,AR_TC005: Dunning Process,3,2,"2, 2",15,Release 1.2
+86,AR_TC006: Customer Statement Generation,1,0,-,5,Release 1.2
+87,AR_TC007: Cash Application,4,1,3,10,Release 1.3
+88,AR_TC008: Credit Limit Management,3,0,-,8,Release 1.3
+89,AR_TC009: Customer Aging Report,2,1,2,7,Release 1.4
+90,AR_TC010: Payment Allocation,3,2,"3, 1",13,Release 1.4
+91,AR_TC011: Bank Reconciliation for Receivables,4,1,2,9,Release 1.5
+92,AR_TC012: Refund Processing,2,0,-,6,Release 1.5
+93,AR_TC013: Credit Memo Approval Workflow,3,1,3,8,Release 2.0
+94,AR_TC014: Interest Calculation on Overdue Invoices,4,2,"1, 2",14,Release 2.0
+95,AR_TC015: Customer Down Payment Processing,5,1,2,11,Release 2.1
+96,AR_TC016: Revenue Recognition Configuration,2,0,-,7,Release 2.1
+97,AR_TC017: Bad Debt Write-Off,3,1,3,9,Release 2.2
+98,AR_TC018: Customer Payment Terms Setup,4,2,"2, 3",12,Release 2.2
+99,AR_TC019: Customer Blacklisting,3,1,1,10,Release 2.3
+100,AR_TC020: Partial Payments Handling,2,0,-,6,Release 2.3
+101,HCM_TC001,5,3,"2, 3, 1",15,Release 1.0
+102,HCM_TC002,7,2,"1, 2",12,Release 1.0
+103,HCM_TC003,4,4,"3, 2, 3, 1",18,Release 1.1
+104,HCM_TC004,6,1,1,10,Release 1.1
+105,HCM_TC005,8,5,"2, 3, 2, 1, 3",20,Release 1.2
+106,HCM_TC006,3,0,-,8,Release 1.2
+107,HCM_TC007,5,2,"1, 2",14,Release 1.3
+108,HCM_TC008,7,3,"3, 1, 2",16,Release 1.3
+109,HCM_TC009,4,1,1,10,Release 1.4
+110,HCM_TC010,6,4,"2, 3, 1, 3",22,Release 1.4
+111,HCM_TC011,8,2,"1, 2",18,Release 1.5
+112,HCM_TC012,3,0,-,8,Release 1.5
+113,HCM_TC013,5,3,"3, 2, 1",14,Release 2.0
+114,HCM_TC014,7,1,1,12,Release 2.0
+115,HCM_TC015,4,2,"2, 1",10,Release 2.1
+116,HCM_TC016,6,0,-,16,Release 2.1
+117,HCM_TC017,8,4,"3, 2, 1, 3",20,Release 2.2
+118,HCM_TC018,3,1,1,8,Release 2.2
+119,HCM_TC019,5,2,"2, 1",14,Release 2.3
+120,HCM_TC020,7,0,-,18,Release 2.3
+121,ONB_TC001,5,3,"2, 3, 1",15,Release 1.0
+122,ONB_TC002,7,2,"1, 2",12,Release 1.0
+123,ONB_TC003,4,4,"3, 2, 3, 1",18,Release 1.1
+124,ONB_TC004,6,1,1,10,Release 1.1
+125,ONB_TC005,8,5,"2, 3, 2, 1, 3",20,Release 1.2
+126,ONB_TC006,3,0,-,8,Release 1.2
+127,ONB_TC007,5,2,"1, 2",14,Release 1.3
+128,ONB_TC008,7,3,"3, 1, 2",16,Release 1.3
+129,ONB_TC009,4,1,1,10,Release 1.4
+130,ONB_TC010,6,4,"2, 3, 1, 3",22,Release 1.4
+131,ONB_TC011,8,2,"1, 2",18,Release 1.5
+132,ONB_TC012,3,0,-,8,Release 1.5
+133,ONB_TC013,5,3,"3, 2, 1",14,Release 2.0
+134,ONB_TC014,7,1,1,12,Release 2.0
+135,ONB_TC015,4,2,"2, 1",10,Release 2.1
+136,ONB_TC016,6,0,-,16,Release 2.1
+137,ONB_TC017,8,4,"3, 2, 1, 3",20,Release 2.2
+138,ONB_TC018,3,1,1,8,Release 2.2
+139,ONB_TC019,5,2,"2, 1",14,Release 2.3
+140,ONB_TC020,7,0,-,18,Release 2.3
